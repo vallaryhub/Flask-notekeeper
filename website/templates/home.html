@@ -1,0 +1,20 @@
+
+    <h1 align="center">Notes</h1>
+    <ul class="list-group list-group-flush" id="notes">
+      
+      <li class="list-group-item">
+       
+        <button type="button" class="close" onClick="deleteNote({ note:id })">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </li>
+      
+    </ul>
+    <form method="POST">
+      <textarea name="note" id="note" class="form-control"></textarea>
+      <br />
+      <div align="center">
+        <button type="submit" class="btn btn-primary">Add Note</button>
+      </div>
+    </form>
+    
